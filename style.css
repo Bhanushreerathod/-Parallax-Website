@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(https://pixabay.com/get/gb37531e64da3f4e513159fd8cc9a41077873e4dca08feea4174818c92bddfaa85cffbda4e67f3276d7589d4fe597d0604490a6ee2e16b6e59e2a3da261cc4b2ea357962db0028f3b83479f7007784ea1_1920.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(https://pixabay.com/get/gfcd4938a06ffcf45463389c0b4974a5b660e83b983fdfb81fb16350efea2ed7b68aedc5c1e3fa8088a1237d7fb6230e89f384973b17e77d81de9b7472a4bb2f4ff4961588b403d03dfa7c131e2a5ec1c_1920.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(https://pixabay.com/get/ge8dfefa11743ad3d800f14b4bc083f0d13fd962ca3012bd2f2878ffc6101f9d6aa110c5248666eba4a37674a6d8d9b54fd7ec1006e104b6dd69b0cc44f628184635027a20531d4734ed00d28d0272da1_1920.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
